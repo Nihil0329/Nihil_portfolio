@@ -13,9 +13,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-a h3{
-  text-decoration: none!important;
-}
 .logo{
     color:var(--main-color);
     font-size: 30px;
