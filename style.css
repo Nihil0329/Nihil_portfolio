@@ -4,6 +4,7 @@
 body {
     margin: 0; 
     padding: 0;
+    font-style: Inter;
 }
 .container-fluid{
     padding: 0;
@@ -104,6 +105,25 @@ body {
 .about-content img{
     width: 500px;
 }
+.education-content{
+    text-align: center;
+    font-size: 25px;
+    color: #C4C4C4;
+    font-weight: 200;
+    padding-bottom: 300px;
+    font-style: Inter;
+}
+.education-content p{
+    width: 400px;
+    font-weight: 300;
+}
+.education-content span{
+    color: #93FAE7;
+    font-weight: 500;
+}
+.education-content img{
+    width: 80%;
+}
 .work .row{
     padding: 20px;
 }
@@ -113,6 +133,10 @@ body {
 .work-right{
     padding-top: 40px;
     text-align: right;
+}
+.work a{
+    color: #93FAE7;
+    font-family: inter;
 }
 .work h2{
     color: #66978F;
