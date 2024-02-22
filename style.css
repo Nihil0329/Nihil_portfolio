@@ -158,7 +158,7 @@ body {
     font-weight: 200;
     font-style: Inter;
 }
-.activity .col-4{
+.colborder{
     border: 0.5px solid #93FAE7;
     padding: 40px;
 }
@@ -308,8 +308,11 @@ body {
     .activity{
         font-size: 15px;
     }
-    .activity .col-4{
-        padding: 20px;
+    .colborder{
+        margin: 20px;
+    }
+    .activity h3{
+        font-size: 15px;
     }
     .activity h6{
         font-size: 10px;
@@ -373,9 +376,6 @@ body {
     }
     .activity{
         font-size: 15px;
-    }
-    .activity .col-4{
-        padding: 40px;
     }
     .activity h6{
         font-size: 10px;
