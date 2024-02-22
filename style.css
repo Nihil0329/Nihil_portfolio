@@ -136,7 +136,7 @@ body {
     text-align: right;
 }
 .work a{
-    color: var(--sub-color);
+    color: var(--main-color);
     font-family: inter;
 }
 .work h2{
@@ -151,6 +151,29 @@ body {
     height: 300px;
     width: 500px;
 }
+.activity{
+    text-align: center;
+    font-size: 25px;
+    color: #C4C4C4;
+    font-weight: 200;
+    font-style: Inter;
+}
+.activity .col-4{
+    border: 0.5px solid #93FAE7;
+    padding: 40px;
+}
+.activity h3{
+    color: #C4C4C4;
+}
+.activity h6{
+    color: var(--sub-color);
+    font-size: 12px;
+}
+.activity p{
+    color: #C4C4C4;
+    font-size: 20px;
+}
+
 .footer{
     padding: 100px;
     text-align: center;
@@ -219,6 +242,18 @@ body {
         height: 100px;
         width: 200px;
     }
+    .activity{
+        font-size: 15px;
+    }
+    .activity .col-4{
+        padding: 10px;
+    }
+    .activity h6{
+        font-size: 10px;
+    }
+    .activity p{
+        font-size: 15px;
+    }
     .footer .logo{
         font-size: 20px;
     }
@@ -269,6 +304,18 @@ body {
     .work img{
         height: 100px;
         width: 150px;
+    }
+    .activity{
+        font-size: 15px;
+    }
+    .activity .col-4{
+        padding: 20px;
+    }
+    .activity h6{
+        font-size: 10px;
+    }
+    .activity p{
+        font-size: 15px;
     }
     .footer .logo{
         font-size: 20px;
@@ -323,6 +370,18 @@ body {
     .work img{
         height: 100px;
         width: 150px;
+    }
+    .activity{
+        font-size: 15px;
+    }
+    .activity .col-4{
+        padding: 40px;
+    }
+    .activity h6{
+        font-size: 10px;
+    }
+    .activity p{
+        font-size: 15px;
     }
     .footer .logo{
         font-size: 20px;
